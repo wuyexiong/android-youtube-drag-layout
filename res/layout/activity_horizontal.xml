@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              tools:context=".MainActivity">
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+
+    <tree.love.draglayout.drag.DragLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <View
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:background="#55d322"
+                ></View>
+    </tree.love.draglayout.drag.DragLayout>
+
+    <!--<tree.love.draglayout.drag.DragLayout-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="0dip"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical">-->
+
+        <!--<View-->
+                <!--android:layout_width="100dip"-->
+                <!--android:layout_height="100dip"-->
+                <!--android:background="#293322"-->
+                <!--></View>-->
+    <!--</tree.love.draglayout.drag.DragLayout>-->
+</LinearLayout>

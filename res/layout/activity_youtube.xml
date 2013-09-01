@@ -1,0 +1,45 @@
+<FrameLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tag="list"
+            />
+
+    <tree.love.draglayout.drag.YoutubeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/youtubeLayout"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+        <TextView
+                android:id="@+id/viewHeader"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="25sp"
+                android:tag="text"
+                android:gravity="center"
+                android:text="create by wuyexiong"
+                android:textColor="@android:color/white"
+                android:background="#AD78CC"/>
+
+        <TextView
+                android:id="@+id/viewDesc"
+                android:tag="desc"
+                android:textSize="35sp"
+                android:gravity="center_horizontal"
+                android:text="关注大师的言行\n跟随大师的举动\n和大师一并修行\n领会大师的意境\n成为真正的大师"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF00FF"/>
+
+    </tree.love.draglayout.drag.YoutubeLayout>
+</FrameLayout>
